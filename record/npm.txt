@@ -1,0 +1,6 @@
+npm init //依次输入内容
+//新建NPM账号
+npm adduser 
+Username: elmerzhang 
+Password: 
+Email: freeboy6716@gmail.com 

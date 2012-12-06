@@ -1,0 +1,70 @@
+github试用
+
+1、在github上创建一个账户：bingowarden
+2、然后在github上创建一个express-uglijs仓库，进行基本配置后需要在express-uglijs仓库中添加可以提交代码的电脑的公钥。 
+3、在linux上有一个ssh-keygen的工具，使用命令 ：ssh-keygen -t rsa -C "34237598@qq.com" ，按照提示一步一步走下去
+4、在github上setting中加入SSHKeys，就是上面生成的内容。
+5、安装git yum install git git-gui，按提示一步一步走下去
+6、配置用户名和邮箱 
+    git config --global user.name 'bingowarden'  
+    git config --global user.email 34237598@qq.com
+7、进入文件夹
+git init   //生成git库
+git add * //添加要提交的文件
+git commit -m '提交信息'//添加提交信息
+git remote add epugjs git@github.com:bingowarden/express-uglijs.git//设置别名git remote add,以供后面push与pull使用
+git pull epugjs master//更新文件
+git push epugjs master//提交文件
+
+其他：
+复制一个git项目
+
+    git clone git://github.com/luozhaoyu/test.git  
+
+更新项目
+
+git pull  
+
+
+
+创建一个分支
+git init之后默认的分支叫做master，在commit之后可以使用
+
+    git branch  
+
+查看现在所在的branch分支
+
+    git branch newbranchname  
+
+创建一个新分支
+
+    git checkout branchname  
+
+切换到其它分支OOXX
+
+回滚刚才的操作
+回滚有两种方法，一种是留痕迹的git revert
+
+    git revert cc3a9d3a5820b16bca3c1761efb5885b90371e94  
+
+
+这是通过又一次的commit中和之前不要的commit达到回滚的目的。所以revert后面跟着的commit-ish就是需要被回滚的那次commit的值
+
+另一种是不留痕迹的，也就是时光机
+
+    git reset d5bb1731bf32fb62dc7eedc573da41fa31e27151 --hard  
+
+直接回到commit-ish那时的状态，之后发生了什么都不会出现在commit log里
+
+
+永久删除不小心commit的文件
+https://help.github.com/articles/remove-sensitive-data
+
+    git filter-branch --index-filter 'git rm --cached --ignore-unmatch FOLDER/*' --prune-empty --tag-name-filter cat -- --all  
+    git push origin master --force  
+    # 完成上一步就以及删除了文件历史，注意要往每一个分支push，可以使用--all --tags  
+    # 下面是在本地删除多余文件  
+    rm -rf .git/refs/original/  
+    git reflog expire --expire=now --all  
+    git gc --prune=now  
+    git gc --aggressive --prune=now  
