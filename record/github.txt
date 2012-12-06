@@ -1,69 +1,69 @@
-githubÊÔÓÃ
+ï»¿githubè¯•ç”¨
 
-1¡¢ÔÚgithubÉÏ´´½¨Ò»¸öÕË»§£ºbingowarden
-2¡¢È»ºóÔÚgithubÉÏ´´½¨Ò»¸öexpress-uglijs²Ö¿â£¬½øĞĞ»ù±¾ÅäÖÃºóĞèÒªÔÚexpress-uglijs²Ö¿âÖĞÌí¼Ó¿ÉÒÔÌá½»´úÂëµÄµçÄÔµÄ¹«Ô¿¡£ 
-3¡¢ÔÚlinuxÉÏÓĞÒ»¸össh-keygenµÄ¹¤¾ß£¬Ê¹ÓÃÃüÁî £ºssh-keygen -t rsa -C "34237598@qq.com" £¬°´ÕÕÌáÊ¾Ò»²½Ò»²½×ßÏÂÈ¥
-4¡¢ÔÚgithubÉÏsettingÖĞ¼ÓÈëSSHKeys£¬¾ÍÊÇÉÏÃæÉú³ÉµÄÄÚÈİ¡£
-5¡¢°²×°git yum install git git-gui£¬°´ÌáÊ¾Ò»²½Ò»²½×ßÏÂÈ¥
-6¡¢ÅäÖÃÓÃ»§ÃûºÍÓÊÏä 
+1ã€åœ¨githubä¸Šåˆ›å»ºä¸€ä¸ªè´¦æˆ·ï¼šbingowarden
+2ã€ç„¶ååœ¨githubä¸Šåˆ›å»ºä¸€ä¸ªexpress-uglijsä»“åº“ï¼Œè¿›è¡ŒåŸºæœ¬é…ç½®åéœ€è¦åœ¨express-uglijsä»“åº“ä¸­æ·»åŠ å¯ä»¥æäº¤ä»£ç çš„ç”µè„‘çš„å…¬é’¥ã€‚ 
+3ã€åœ¨linuxä¸Šæœ‰ä¸€ä¸ªssh-keygençš„å·¥å…·ï¼Œä½¿ç”¨å‘½ä»¤ ï¼šssh-keygen -t rsa -C "34237598@qq.com" ï¼ŒæŒ‰ç…§æç¤ºä¸€æ­¥ä¸€æ­¥èµ°ä¸‹å»
+4ã€åœ¨githubä¸Šsettingä¸­åŠ å…¥SSHKeysï¼Œå°±æ˜¯ä¸Šé¢ç”Ÿæˆçš„å†…å®¹ã€‚
+5ã€å®‰è£…git yum install git git-guiï¼ŒæŒ‰æç¤ºä¸€æ­¥ä¸€æ­¥èµ°ä¸‹å»
+6ã€é…ç½®ç”¨æˆ·åå’Œé‚®ç®± 
     git config --global user.name 'bingowarden'  
     git config --global user.email 34237598@qq.com
-7¡¢½øÈëÎÄ¼ş¼Ğ
-git init   //Éú³Égit¿â
-git add * //Ìí¼ÓÒªÌá½»µÄÎÄ¼ş
-git commit -m 'Ìá½»ĞÅÏ¢'//Ìí¼ÓÌá½»ĞÅÏ¢
-git remote add epugjs git@github.com:bingowarden/express-uglijs.git//ÉèÖÃ±ğÃûgit remote add,ÒÔ¹©ºóÃæpushÓëpullÊ¹ÓÃ
-git pull epugjs master//¸üĞÂÎÄ¼ş
-git push epugjs master//Ìá½»ÎÄ¼ş
+7ã€è¿›å…¥æ–‡ä»¶å¤¹
+git init   //ç”Ÿæˆgitåº“
+git add * //æ·»åŠ è¦æäº¤çš„æ–‡ä»¶
+git commit -m 'æäº¤ä¿¡æ¯'//æ·»åŠ æäº¤ä¿¡æ¯
+git remote add epugjs git@github.com:bingowarden/express-uglijs.git//è®¾ç½®åˆ«ågit remote add,ä»¥ä¾›åé¢pushä¸pullä½¿ç”¨
+git pull epugjs master//æ›´æ–°æ–‡ä»¶
+git push epugjs master//æäº¤æ–‡ä»¶
 
-ÆäËû£º
-¸´ÖÆÒ»¸ögitÏîÄ¿
+å…¶ä»–ï¼š
+å¤åˆ¶ä¸€ä¸ªgité¡¹ç›®
 
     git clone git://github.com/luozhaoyu/test.git  
 
-¸üĞÂÏîÄ¿
+æ›´æ–°é¡¹ç›®
 
 git pull  
 
 
 
-´´½¨Ò»¸ö·ÖÖ§
-git initÖ®ºóÄ¬ÈÏµÄ·ÖÖ§½Ğ×ömaster£¬ÔÚcommitÖ®ºó¿ÉÒÔÊ¹ÓÃ
+åˆ›å»ºä¸€ä¸ªåˆ†æ”¯
+git initä¹‹åé»˜è®¤çš„åˆ†æ”¯å«åšmasterï¼Œåœ¨commitä¹‹åå¯ä»¥ä½¿ç”¨
 
     git branch  
 
-²é¿´ÏÖÔÚËùÔÚµÄbranch·ÖÖ§
+æŸ¥çœ‹ç°åœ¨æ‰€åœ¨çš„branchåˆ†æ”¯
 
     git branch newbranchname  
 
-´´½¨Ò»¸öĞÂ·ÖÖ§
+åˆ›å»ºä¸€ä¸ªæ–°åˆ†æ”¯
 
     git checkout branchname  
 
-ÇĞ»»µ½ÆäËü·ÖÖ§OOXX
+åˆ‡æ¢åˆ°å…¶å®ƒåˆ†æ”¯OOXX
 
-»Ø¹ö¸Õ²ÅµÄ²Ù×÷
-»Ø¹öÓĞÁ½ÖÖ·½·¨£¬Ò»ÖÖÊÇÁôºÛ¼£µÄgit revert
+å›æ»šåˆšæ‰çš„æ“ä½œ
+å›æ»šæœ‰ä¸¤ç§æ–¹æ³•ï¼Œä¸€ç§æ˜¯ç•™ç—•è¿¹çš„git revert
 
     git revert cc3a9d3a5820b16bca3c1761efb5885b90371e94  
 
 
-ÕâÊÇÍ¨¹ıÓÖÒ»´ÎµÄcommitÖĞºÍÖ®Ç°²»ÒªµÄcommit´ïµ½»Ø¹öµÄÄ¿µÄ¡£ËùÒÔrevertºóÃæ¸ú×ÅµÄcommit-ish¾ÍÊÇĞèÒª±»»Ø¹öµÄÄÇ´ÎcommitµÄÖµ
+è¿™æ˜¯é€šè¿‡åˆä¸€æ¬¡çš„commitä¸­å’Œä¹‹å‰ä¸è¦çš„commitè¾¾åˆ°å›æ»šçš„ç›®çš„ã€‚æ‰€ä»¥revertåé¢è·Ÿç€çš„commit-ishå°±æ˜¯éœ€è¦è¢«å›æ»šçš„é‚£æ¬¡commitçš„å€¼
 
-ÁíÒ»ÖÖÊÇ²»ÁôºÛ¼£µÄ£¬Ò²¾ÍÊÇÊ±¹â»ú
+å¦ä¸€ç§æ˜¯ä¸ç•™ç—•è¿¹çš„ï¼Œä¹Ÿå°±æ˜¯æ—¶å…‰æœº
 
     git reset d5bb1731bf32fb62dc7eedc573da41fa31e27151 --hard  
 
-Ö±½Ó»Øµ½commit-ishÄÇÊ±µÄ×´Ì¬£¬Ö®ºó·¢ÉúÁËÊ²Ã´¶¼²»»á³öÏÖÔÚcommit logÀï
+ç›´æ¥å›åˆ°commit-ishé‚£æ—¶çš„çŠ¶æ€ï¼Œä¹‹åå‘ç”Ÿäº†ä»€ä¹ˆéƒ½ä¸ä¼šå‡ºç°åœ¨commit logé‡Œ
 
 
-ÓÀ¾ÃÉ¾³ı²»Ğ¡ĞÄcommitµÄÎÄ¼ş
+æ°¸ä¹…åˆ é™¤ä¸å°å¿ƒcommitçš„æ–‡ä»¶
 https://help.github.com/articles/remove-sensitive-data
 
     git filter-branch --index-filter 'git rm --cached --ignore-unmatch FOLDER/*' --prune-empty --tag-name-filter cat -- --all  
     git push origin master --force  
-    # Íê³ÉÉÏÒ»²½¾ÍÒÔ¼°É¾³ıÁËÎÄ¼şÀúÊ·£¬×¢ÒâÒªÍùÃ¿Ò»¸ö·ÖÖ§push£¬¿ÉÒÔÊ¹ÓÃ--all --tags  
-    # ÏÂÃæÊÇÔÚ±¾µØÉ¾³ı¶àÓàÎÄ¼ş  
+    # å®Œæˆä¸Šä¸€æ­¥å°±ä»¥åŠåˆ é™¤äº†æ–‡ä»¶å†å²ï¼Œæ³¨æ„è¦å¾€æ¯ä¸€ä¸ªåˆ†æ”¯pushï¼Œå¯ä»¥ä½¿ç”¨--all --tags  
+    # ä¸‹é¢æ˜¯åœ¨æœ¬åœ°åˆ é™¤å¤šä½™æ–‡ä»¶  
     rm -rf .git/refs/original/  
     git reflog expire --expire=now --all  
     git gc --prune=now  
