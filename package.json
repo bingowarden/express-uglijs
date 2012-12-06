@@ -1,0 +1,15 @@
+{
+  "name": "expressugjs",
+  "version": "1.0.0",
+  "description": "uglijs javascript file in express frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": "",
+  "keywords": [
+    "express-uglijs"
+  ],
+  "author": "bingowarden",
+  "license": "BSD"
+}
