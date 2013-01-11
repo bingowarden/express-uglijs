@@ -65,3 +65,24 @@ function toUTF8(str){
     }
     return strarr.join('');
 }
+
+
+function toUnicode(str){
+    var a = [];
+    for(var i=0;i<str.length;i++){
+        var int = str.charCodeAt(i)
+        a.push(int.toString(16));
+    }
+    return '\\u'+a.join('\\u')
+}
+
+function unicodeToString(str){
+    var arr = str.split('\\u');
+    arr.shift();
+    var _str = '';
+    for(var i=0;i<arr.length;i++){
+        arr[i] = parseInt(arr[i],16);
+        _str += String.fromCharCode(arr[i])
+    }
+    return _str;
+}
