@@ -2,7 +2,7 @@
 //2）对于n字节的符号（n>1），第一个字节的前n位都设为1，第n+1位设为0，后面字节的前两位一律设为10。剩下的没有提及的二进制位，全部为这个符号的unicode码。
 function toUTF8(str){
     var strarr = [];
-    fort(var j=0;j<str.length;j++){
+    for(var j=0;j<str.length;j++){
         var int = str.charCodeAt(j); //获取字符ASCII码
         var n;
         //Unicode符号范围     | UTF-8编码方式                       |十进制
